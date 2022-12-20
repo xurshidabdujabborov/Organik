@@ -1,0 +1,64 @@
+.Form {
+    width: 100%;
+    margin-top: 200px;
+}
+
+.Form .img {
+    width: 100%;
+    position: relative;
+}
+
+.Form .img img {
+    width: 100%;
+}
+
+.Form .left {
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 50px;
+}
+
+.Form .left h2.text {
+    color: white;
+}
+
+.Form form {
+    position: absolute;
+    top: 30%;
+    right: 70px;
+}
+
+.Form form input {
+    padding-left: 30px;
+    width: 350px;
+    height: 80px;
+    color: #525C60;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 16px;
+}
+
+.Form form input:focus {
+    outline: none;
+}
+
+.Form form button {
+    padding: 25px 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    background: #274C5B;
+    border-radius: 16px;
+    margin-left: 10px;
+    color: white;
+}
+@media(max-width: 900px){
+    .Form{
+        display: none;
+    }
+}

@@ -1,0 +1,151 @@
+.Offer {
+    width: 100%;
+    background: #274C5B;
+    padding: 150px 0px;
+}
+
+.Offer .left {
+    text-align: left;
+}
+
+.Offer .left h2.text {
+    color: white;
+}
+
+.Offer .right {
+    text-align: right;
+    margin-left: 50%;
+}
+
+.Offer .right button {
+    display: flex;
+    align-items: center;
+    padding: 20px 33px;
+    margin-top: 30px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    border: none;
+    background: #EFD372;
+    border: 1px solid #EFD372;
+    border-radius: 16px;
+    color: #274C5B;
+}
+
+.Offer .right button:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px #274C5B;
+}
+
+.Offer .right button .icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #274C5B;
+    color: white;
+    margin-left: 24px;
+}
+
+.Offer .right button .icon .css-i4bv87-MuiSvgIcon-root {
+    font-size: 20px;
+}
+
+.Offer .right button .icon:hover {
+    cursor: pointer;
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
+.Offer .box {
+    position: relative;
+    background: #F9F8F8;
+    border-radius: 30px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin: 0px 10px;
+    margin-top: 50px;
+}
+
+.Offer .box:hover {
+    cursor: pointer;
+    transition: 1s;
+}
+
+.Offer .box .bot {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.Offer .box .bot button {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 27px;
+    color: white;
+    background: #274C5B;
+    border-radius: 8px;
+    padding: 5px 15px;
+    border: none;
+}
+
+.Offer .box .bot button:hover {
+    cursor: pointer;
+    transition: 1s;
+    background-color: #EFD372;
+    color: #274C5B;
+}
+
+.Offer .box img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.Offer .box p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #274C5B;
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #D4D4D4;
+}
+
+.Offer .box .flex {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Offer .box .flex span {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #B8B8B8;
+    display: block;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.Offer .box .flex span a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #274C5B;
+    display: block;
+    margin-left: 10px;
+}
+@media(max-width: 900px){
+    .Offer .left{
+        text-align: center;
+    }
+    .Offer .right{
+       text-align: center;
+       margin: 0;
+    }
+}

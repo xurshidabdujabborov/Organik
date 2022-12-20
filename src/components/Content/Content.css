@@ -1,0 +1,121 @@
+.Content {
+    width: 100%;
+    margin-top: 130px;
+}
+
+.Content .left {
+    text-align: left;
+}
+
+.Content .right {
+    text-align: right;
+}
+
+.Content .right button {
+    padding: 25px 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #274C5B;
+    border-radius: 16px;
+}
+
+.Content .right button:hover {
+    cursor: pointer;
+    transition: 1s;
+    background-color: #274C5B;
+    color: white;
+}
+
+.Content .img {
+    margin-top: 100px;
+    position: relative;
+}
+
+.Content .img .box {
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.14);
+    border-radius: 30px;
+    padding: 50px 0px;
+    padding-left: 50px;
+}
+.Content .img .box:hover{
+    cursor: pointer;
+}
+
+.Content .img .box .flex {
+    display: flex;
+    align-items: center;
+}
+
+.Content .img .box .flex span {
+    display: block;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #274C5B;
+    margin-left: 10px;
+}
+.Content .img .box .flex .css-i4bv87-MuiSvgIcon-root{
+    color: #274C5B;
+}
+.Content .img .box h4{
+    margin-top: 12px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #274C5B;
+}
+.Content .img .box  p.uno{
+    margin-top: 40px;
+}
+.Content .img .box  h5{
+    margin-top: 22px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #274C5B;
+    display: flex;
+    align-items: center;
+}
+.Content .img .box h5 .css-i4bv87-MuiSvgIcon-root{
+    margin-left: 15px;
+    background-color: #274C5B;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+.Content .img .box h5 .css-i4bv87-MuiSvgIcon-root:hover{
+    cursor: pointer;
+    transition: 1s;
+    transform: rotate(360deg);
+}
+@media(max-width: 900px){
+    .Content .left{
+        text-align: center;
+    }
+    .Content .right{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .Content .img img{
+        width: 100%;
+        margin: 30px 0px;
+    }
+    .Content .img .box{
+        width: 500px;
+        padding: 20px 0px;
+        padding-left: 20px;
+    }
+}
+@media(max-width: 500px){
+    .Content .img .box{
+        display: none;
+    }
+}

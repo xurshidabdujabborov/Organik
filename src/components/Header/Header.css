@@ -1,0 +1,95 @@
+header {
+    width: 100%;
+    background-image: url("../../assets/IMAGE.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 400px 0px;
+}
+
+header .left {
+    text-align: left;
+}
+
+header .left h1 {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 84px;
+    color: #274C5B;
+}
+
+header .left button {
+    display: flex;
+    align-items: center;
+    padding: 20px 33px;
+    margin-top: 30px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    border: none;
+    background: #EFD372;
+    border: 1px solid #EFD372;
+    border-radius: 16px;
+    color: #274C5B;
+}
+header .left button:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px #274C5B;
+}
+header .left button .icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #274C5B;
+    color: white;
+    margin-left: 24px;
+}
+header .left button .icon .css-i4bv87-MuiSvgIcon-root{
+    font-size: 20px;
+}
+header .left button .icon:hover{
+    cursor: pointer;
+    transition: 1s;
+    transform: rotate(360deg);
+}
+/* header_title */
+.header_title{
+    width: 100%;
+    margin-top: 140px;
+}
+.header_title .img{
+    width: 100%;
+    position: relative;
+}
+.header_title .text{
+    width: 100%;
+    position: absolute;
+    top: 25%;
+}
+.header_title .text h2.text{
+    padding-left: 50px;
+    margin-top: 40px;
+}
+.header_title .text h2.title{
+    padding-left: 50px;
+}
+@media(max-width: 800px){
+    header .left h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .header_title .img img{
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .header_title .img .text h2.title{
+        font-size: 20px;
+    }
+    .header_title .img .text h2.text{
+        font-size: 25px;
+        line-height: 30px;
+    }
+}

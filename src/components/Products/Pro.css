@@ -1,0 +1,84 @@
+.Pro {
+    width: 100%;
+    margin-top: 120px;
+}
+
+.Pro .text {
+    text-align: center;
+}
+
+.Pro .box {
+    position: relative;
+    background: #F9F8F8;
+    border-radius: 30px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin: 0px 10px;
+    margin-top: 50px;
+}
+.Pro .box:hover{
+    cursor: pointer;
+    transition: 1s;
+}
+
+.Pro .box .bot {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.Pro .box .bot button {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 27px;
+    color: white;
+    background: #274C5B;
+    border-radius: 8px;
+    padding: 5px 15px;
+    border: none;
+}
+.Pro .box .bot button:hover{
+    cursor: pointer;
+    transition: 1s;
+    background-color: #EFD372;
+    color: #274C5B;
+}
+.Pro .box img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.Pro .box p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #274C5B;
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #D4D4D4;
+}
+.Pro .box .flex{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Pro .box .flex span{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #B8B8B8;
+    display: block;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.Pro .box .flex span a{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #274C5B;
+    display: block;
+    margin-left: 10px;
+}

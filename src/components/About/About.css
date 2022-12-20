@@ -1,0 +1,63 @@
+.About {
+    width: 100%;
+    margin-top: 140px;
+    background: #F9F8F8;
+    padding: 120px 0px;
+}
+
+.About .img {
+    text-align: left;
+}
+
+.About .img img {
+    width: 100%;
+}
+
+.About .left {
+    text-align: left;
+}
+
+.About .left p.uno {
+    margin-top: 22px;
+}
+
+.About .left button {
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 25px 30px;
+    background: #274C5B;
+    border-radius: 16px;
+    border: none;
+    color: white;
+}
+
+.About .left button:hover {
+    cursor: pointer;
+    transition: 1s;
+    background-color: #EFD372;
+}
+
+.About .left button .icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    background: #335B6B;
+}
+
+.About .left button .icon:hover {
+    cursor: pointer;
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
+.About .left button .css-i4bv87-MuiSvgIcon-root {
+    font-size: 20px;
+}
